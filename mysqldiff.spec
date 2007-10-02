@@ -1,7 +1,7 @@
 Summary:	Tool to detect layout differences between two MySQL databases
 Name:		mysqldiff
 Version:	1.5.0
-Release:	0.1
+Release:	0.2
 License:	freeware
 Group:		Applications/WWW
 # Source0Download:	http://www.mysqldiff.org/file.php?id=23
@@ -9,7 +9,10 @@ Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	027d52697950030a550af903f5f6cb1e
 URL:		http://www.mysqldiff.org/
 BuildRequires:	rpmbuild(macros) >= 1.268
+Requires:	php(mysql)
+Requires:	php(pcre)
 Requires:	webapps
+Requires:	webserver(php) >= 4.1.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
