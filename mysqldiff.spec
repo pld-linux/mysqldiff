@@ -31,10 +31,10 @@ live-system to 'patch' it to the state of the developement system.
 
 %description -l pl.UTF-8
 MySQLdiff jest narzędzie do wykrywania różnic układu pomiędzy dwoma
-bazami MySQL
+bazami MySQL.
 
-MySQLdiff utworzy SQL-ALTER-Script (skrypt zmian) który musi być
-wykonany na żywym systemie by zmodyfikować jego zawartość do stanu
+MySQLdiff tworzy skrypt z poleceniami SQL ALTER, który należy wykonać
+na systemie produkcyjnym aby zmodyfikować jego zawartość do stanu
 systemu rozwojowego.
 
 %prep
