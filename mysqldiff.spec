@@ -100,6 +100,5 @@ rm -rf $RPM_BUILD_ROOT
 %lang(fr) %{_appdir}/nls/french-iso-8859-1.nls.php
 %lang(hu) %{_appdir}/nls/hungarian-iso-8859-2.nls.php
 %lang(nl) %{_appdir}/nls/dutch-iso-8859-1.nls.php
-%lang(nl) %{_appdir}/nls/dutch-iso-8859-1.nls.php
 %lang(ru) %{_appdir}/nls/russian-cp1251.nls.php
 %lang(ru) %{_appdir}/nls/russian-koi8-r.nls.php
